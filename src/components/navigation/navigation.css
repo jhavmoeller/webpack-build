@@ -1,0 +1,33 @@
+/* @import "../../base/css/colors.css"; */
+
+:root {
+    --navigation-height: 50px; 
+}
+.site-navigation {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: var(--navigation-height);
+    border-bottom: 1px solid red;
+    background: green;
+
+    & + * { padding-top: var(--navigation-height, 30px); }
+
+    
+}
+.site-navigation-menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    &__item {
+        line-height: var(--navigation-height, 30px);
+        margin-right: 20px;
+    }
+}
+
+.site-navigation-menu-item {
+    
+}

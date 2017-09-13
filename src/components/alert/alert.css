@@ -1,0 +1,5 @@
+/* @import "../../base/css/colors.css"; */
+
+.umb-grid {
+    border: 1px solid var(--color, yellow);
+}

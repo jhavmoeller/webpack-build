@@ -1,2 +1,1 @@
-# webpack-build
-Experimental webpack build setup
+# Snilde Website
