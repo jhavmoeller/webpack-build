@@ -30,6 +30,7 @@
     "webpack": "3.4.1"
   },
   "dependencies": {
+    "normalize.css": "7.0.0",
     "autoprefixer": "^7.1.2",
     "cssnano": "^3.10.0",
     "lodash": "4.17.4",

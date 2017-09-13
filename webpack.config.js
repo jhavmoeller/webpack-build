@@ -1,6 +1,6 @@
 const path = require('path');
 const webpack = require('webpack');
-const projectPath = path.resolve('..', __dirname.replace('Frontend', 'Website'));
+const projectPath = './'; // path.resolve('..', __dirname.replace('Frontend', 'Website'));
 const CleanWebpackPlugin = require('clean-webpack-plugin');
 const ExtractTextPlugin = require("extract-text-webpack-plugin");
 
@@ -11,7 +11,8 @@ module.exports = {
     plugins: [
         new CleanWebpackPlugin(['dist'], {
             verbose: true,
-            root: projectPath
+            path: projectPath
+            // root: projectPath
         }),
         new webpack.optimize.CommonsChunkPlugin({
             name: 'common' // Specify the common bundle's name.

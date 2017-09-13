@@ -13,3 +13,4 @@
 .editorconfig
 Snilde.Frontend.shproj
 Snilde.Frontend.projitems
+dist/
